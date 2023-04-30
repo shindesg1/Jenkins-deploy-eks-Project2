@@ -2,6 +2,6 @@ terraform {
   backend "s3" {
     bucket = "young-minds-app-21"
     region = "us-east-1"
-    key = "eks1/terraform.tfstate"
+    key = "eks21/terraform.tfstate"
   }
 }
